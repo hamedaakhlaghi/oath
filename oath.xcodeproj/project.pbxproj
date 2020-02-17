@@ -195,7 +195,6 @@
 				AF414D1E217F0E7B00921AE3 /* Sources */,
 				AF414D1F217F0E7B00921AE3 /* Frameworks */,
 				AF414D20217F0E7B00921AE3 /* Resources */,
-				1C4569CE1296296D9408F19E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,24 +282,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1C4569CE1296296D9408F19E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-oathTests/Pods-oathTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oathTests/Pods-oathTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D2F1325EC7D03D82B26903C2 /* [CP] Check Pods Manifest.lock */ = {
