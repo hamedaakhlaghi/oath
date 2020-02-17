@@ -1,6 +1,6 @@
    Pod::Spec.new do |s|
           #1.
-          s.name               = "oath"
+          s.name               = "oath.swift"
           #2.
           s.version            = "0.6.0-beta"
           #3.  
